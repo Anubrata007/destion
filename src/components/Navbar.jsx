@@ -3,6 +3,7 @@ import Black from '../assets/triangle.svg';
 import { TbMenu } from "react-icons/tb";
 import { IoIosSearch } from "react-icons/io";
 import { RxCross1 } from "react-icons/rx";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Navbar = () => {
 
@@ -13,8 +14,6 @@ const Navbar = () => {
         { name: "Showcase", link: "/" },
         { name: "Docs", link: "/" },
         { name: "Blog", link: "/" },
-        { name: "Templates", link: "/" },
-        { name: "Enterprise", link: "/" },
     ];
 
     const hamMenu = [
@@ -66,14 +65,27 @@ const Navbar = () => {
                                     {item.name}
                                 </a>
                             ))}
+                            <a href='/' className='text-gray-500 hover:text-gray-950 flex gap-1'>
+                                Templates
+                                <GoArrowUpRight className='h-3 w-3 text-xs' />
+                            </a>
+                            <a href='/' className='text-gray-500 hover:text-gray-950 flex gap-1'>
+                                Enterprise
+                                <GoArrowUpRight className='h-3 w-3 text-xs' />
+                            </a>
                         </div>
                     </div>
                     <div className="lg:flex hidden items-center gap-4">
-                        <input
-                            type="text"
-                            className="w-full px-4 h-8 bg-gray-100 hover:bg-gray-200 rounded-md focus:outline-none text-sm text-gray-800"
-                            placeholder="Search documentation..."
-                        />
+                        <div className='relative'>
+                            <input
+                                type="text"
+                                className="w-full px-4 h-8 bg-gray-100 hover:bg-gray-200 rounded-md focus:outline-none text-sm text-gray-800"
+                                placeholder="Search..."
+                            />
+                            <span className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white px-2 py-0.5 border rounded-md text-xs font-medium">
+                                CtrlK
+                            </span>
+                        </div>
 
                         <div className='flex'>
                             <button

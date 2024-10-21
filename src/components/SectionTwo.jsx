@@ -25,9 +25,10 @@ const SectionTwo = () => {
                         </div>
                     </div>
 
-                    <div className="bg-white row-span-1 p-6 rounded-lg shadow-md border flex flex-col gap-3">
+                    <div className="relative bg-white row-span-1 p-6 rounded-lg shadow-md border flex flex-col gap-3 group">
                         <h3 className="text-4xl font-extrabold mt-4 text-purple-600 tracking-tighter">stripe</h3>
-                        <p className="text-gray-600 mt-2">Architecting a live look at reliability: Stripe viral Black Friday site.</p>
+                        <p className="text-gray-600 font-semibold text-base mt-2">Architecting a live look at reliability: Stripe viral Black Friday site.</p>
+
                         <div className="flex gap-4 mb-4">
                             <div className="flex flex-col border rounded-lg p-2">
                                 <span className="text-base font-bold">100%</span>
@@ -44,13 +45,10 @@ const SectionTwo = () => {
                         <div className="mb-4">
                             <img src={RdLogo} alt="Logo" className="h-12 w-12" />
                         </div>
-
                         <div>
-                            {/* Title */}
                             <h2 className="text-3xl font-bold mb-4">
                                 From monolith to micro-frontend solution
                             </h2>
-                            {/* Metrics */}
                             <div className="flex gap-4 mb-4">
                                 <div className="flex flex-col border rounded-lg p-2">
                                     <span className="text-base font-bold">5 Second Build</span>
@@ -65,17 +63,13 @@ const SectionTwo = () => {
                     </div>
 
                     <div className="bg-white row-span-1 p-6 rounded-lg shadow-md border">
-                        {/* Logo */}
                         <div className="mb-4">
                             <p className='font-extrabold text-3xl tracking-widest'>SONOS</p>
                         </div>
-
                         <div>
-                            {/* Title */}
                             <p className="font-semibold text-base mb-4 text-gray-600">
                                 Developing at the speed of sound: How Sonos amplified their DevEx
                             </p>
-                            {/* Metrics */}
                             <div className="flex gap-4 mb-4">
                                 <div className="flex flex-col border rounded-lg p-2">
                                     <span className="text-base font-bold">100%</span>
@@ -96,6 +90,7 @@ const SectionTwo = () => {
                             <p className="mt-2 font-semibold text-base text-gray-600">Stater kit for high-performance commerce with Shopify</p>
                         </div>
                     </div>
+
 
                 </div>
             </div>
