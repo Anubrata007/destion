@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import RedLogo from "../assets/logo.svg";
 import CardImage from "../assets/card-img1.webp";
 
-const CardSlide = (props) => {
+const CardSlide = () => {
 
     var settings = {
         dots: true,
@@ -21,11 +21,11 @@ const CardSlide = (props) => {
                 <Slider {...settings}>
 
                     {/* Card 1 */}
-                    <div className="shadow-lg rounded-lg overflow-hidden h-[450px]">
+                    <div className="shadow-lg rounded-lg overflow-hidden h-[450px] hover:bg-stone-50">
                         <div className="flex flex-col justify-between h-full p-6">
                             {/* Logo */}
                             <div className="mb-4">
-                                <img src={RedLogo} alt="Chick-fil-A Logo" className="h-12 w-12" />
+                                <img src={RedLogo} alt="Logo" className="h-12 w-12" />
                             </div>
 
                             <div>
@@ -57,7 +57,7 @@ const CardSlide = (props) => {
 
 
                     {/* Card 2 */}
-                    <div className="shadow-lg rounded-lg overflow-hidden h-[450px]">
+                    <div className="shadow-lg rounded-lg overflow-hidden h-[450px] hover:bg-stone-50">
                         <div className="flex flex-col justify-between h-full p-6">
                             {/* Image */}
                             <div className="mb-4">
@@ -84,7 +84,7 @@ const CardSlide = (props) => {
                     </div>
 
                     {/* Card 3 same as 1 */}
-                    <div className="bg-white shadow-lg rounded-lg overflow-hidden h-[450px]">
+                    <div className="bg-white shadow-lg rounded-lg overflow-hidden h-[450px] hover:bg-stone-50">
                         <div className="flex flex-col justify-between h-full p-6">
                             {/* Logo */}
                             <div className="mb-4">
@@ -119,7 +119,7 @@ const CardSlide = (props) => {
                     </div>
 
                     {/* Card 4 same as 3 */}
-                    <div className="bg-white shadow-lg rounded-lg overflow-hidden h-[450px]">
+                    <div className="bg-white shadow-lg rounded-lg overflow-hidden h-[450px] hover:bg-stone-50">
                         <div className="flex flex-col justify-between h-full p-6">
                             {/* Logo */}
                             <div className="mb-4">
@@ -155,7 +155,7 @@ const CardSlide = (props) => {
 
 
                     {/* Card 5 same as 2 */}
-                    <div className="shadow-lg rounded-lg overflow-hidden h-[450px]">
+                    <div className="shadow-lg rounded-lg overflow-hidden h-[450px] hover:bg-stone-50">
                         <div className="flex flex-col justify-between h-full p-6">
                             {/* Image */}
                             <div className="mb-4">

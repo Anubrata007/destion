@@ -48,8 +48,8 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="border-b sticky top-0 backdrop-blur-sm z-50">
-                <div className="flex justify-between item-center py-3 container mx-auto lg:px-0 px-4">
+            <nav className="border-b sticky top-0 backdrop-blur-sm z-[1000]">
+                <div className="flex justify-between item-center py-2 lg:container mx-auto px-2">
                     <div className="flex items-center">
                         <div className="flex items-center gap-2">
                             <a href="/">
@@ -83,7 +83,7 @@ const Navbar = () => {
                                 placeholder="Search..."
                             />
                             <span className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white px-2 py-0.5 border rounded-md text-xs font-medium">
-                                CtrlK
+                                ⌘K
                             </span>
                         </div>
 

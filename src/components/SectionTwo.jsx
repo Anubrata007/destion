@@ -6,8 +6,8 @@ import RdLogo from "../assets/logo.svg";
 const SectionTwo = () => {
 
     return (
-        <section className="py-5">
-            <div className="max-w-7xl mx-auto px-4">
+        <section className="py-10">
+            <div className="lg:container mx-auto px-2">
 
                 {/* Slider */}
                 <span className='lg:hidden'>
@@ -15,7 +15,8 @@ const SectionTwo = () => {
                 </span>
 
 
-                <div className="hidden lg:grid grid-flow-col gap-4">
+                <div className="hidden lg:grid grid-flow-col max-w-[1280px] mx-auto h-[550px] justify-center gap-4"
+                    style={{ gridTemplateColumns: "1fr 1.1fr 1fr" }}>
 
                     <div className="bg-white p-8 row-span-2 rounded-lg shadow-md border flex flex-col justify-between">
                         <img src={CardImage} alt="AI Chatbot Template" className="w-36 h-24 shadow-md" />
