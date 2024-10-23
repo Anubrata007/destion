@@ -61,15 +61,15 @@ const Navbar = () => {
                         </div>
                         <div className="hidden lg:flex gap-6 ml-10 text-sm">
                             {navItem.map((item) => (
-                                <a href={item.link} className="text-gray-500 hover:text-gray-950">
+                                <a href={item.link} className="text-gray-600 hover:text-gray-950 font-medium">
                                     {item.name}
                                 </a>
                             ))}
-                            <a href='/' className='text-gray-500 hover:text-gray-950 flex gap-1'>
+                            <a href='/' className='text-gray-500 hover:text-gray-950 flex gap-1 font-medium'>
                                 Templates
                                 <GoArrowUpRight className='h-3 w-3 text-xs' />
                             </a>
-                            <a href='/' className='text-gray-500 hover:text-gray-950 flex gap-1'>
+                            <a href='/' className='text-gray-500 hover:text-gray-950 flex gap-1 font-medium'>
                                 Enterprise
                                 <GoArrowUpRight className='h-3 w-3 text-xs' />
                             </a>
@@ -97,7 +97,7 @@ const Navbar = () => {
                             </button>
                             <button
                                 type="submit"
-                                className="bg-black text-white flex items-center justify-center h-8 rounded-md hover:bg-gray-800 text-sm text-center me-2 py-2 px-3"
+                                className="bg-gray-900 text-white flex items-center justify-center h-8 rounded-md hover:bg-gray-800 text-sm text-center me-2 py-2 px-3 font-medium"
                             >
                                 Learn
                             </button>

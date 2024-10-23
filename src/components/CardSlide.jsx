@@ -21,7 +21,7 @@ const CardSlide = () => {
                 <Slider {...settings}>
 
                     {/* Card 1 */}
-                    <div className="shadow-lg rounded-lg overflow-hidden h-[450px] hover:bg-stone-50">
+                    <div className="rounded-lg overflow-hidden h-[450px] hover:bg-stone-50 border shadow-lg">
                         <div className="flex flex-col justify-between h-full p-6">
                             {/* Logo */}
                             <div className="mb-4">
@@ -57,11 +57,11 @@ const CardSlide = () => {
 
 
                     {/* Card 2 */}
-                    <div className="shadow-lg rounded-lg overflow-hidden h-[450px] hover:bg-stone-50">
+                    <div className="rounded-lg overflow-hidden h-[450px] hover:bg-stone-50 border shadow-lg">
                         <div className="flex flex-col justify-between h-full p-6">
                             {/* Image */}
                             <div className="mb-4">
-                                <img src={CardImage} alt="card-image" className="h-36 w-full shadow-md" />
+                                <img src={CardImage} alt="card-image" className="h-40 w-50 border shadow-md" />
                             </div>
 
                             <div>
@@ -70,7 +70,7 @@ const CardSlide = () => {
                                     AI Chatbot Template
                                 </h1>
                                 <h2 className="text-xl font-medium mb-4">
-                                    A full-featured, hackable Next.js AI chatbot built by Vercel
+                                    A full-featured, hackable <br /> Next.js AI chatbot built by Vercel
                                 </h2>
                                 {/* Link */}
                                 <a href="#" className="text-gray-700 inline-flex items-center">
@@ -84,7 +84,7 @@ const CardSlide = () => {
                     </div>
 
                     {/* Card 3 same as 1 */}
-                    <div className="bg-white shadow-lg rounded-lg overflow-hidden h-[450px] hover:bg-stone-50">
+                    <div className="bg-white rounded-lg overflow-hidden h-[450px] hover:bg-stone-50 border shadow-lg">
                         <div className="flex flex-col justify-between h-full p-6">
                             {/* Logo */}
                             <div className="mb-4">
@@ -94,7 +94,7 @@ const CardSlide = () => {
                             <div>
                                 {/* Title */}
                                 <h2 className="text-2xl font-semibold mb-4">
-                                    Architecting a live look at reliability: Stripe's viral Black Friday site
+                                    Architecting a live look at reliability:<br />Stripe's viral Black Friday site
                                 </h2>
                                 {/* Metrics */}
                                 <div className="flex gap-4 mb-4">
@@ -119,7 +119,7 @@ const CardSlide = () => {
                     </div>
 
                     {/* Card 4 same as 3 */}
-                    <div className="bg-white shadow-lg rounded-lg overflow-hidden h-[450px] hover:bg-stone-50">
+                    <div className="bg-white rounded-lg overflow-hidden h-[450px] hover:bg-stone-50 border shadow-lg">
                         <div className="flex flex-col justify-between h-full p-6">
                             {/* Logo */}
                             <div className="mb-4">
@@ -129,17 +129,17 @@ const CardSlide = () => {
                             <div>
                                 {/* Title */}
                                 <h2 className="text-2xl font-semibold mb-4">
-                                    Architecting a live look at reliability: Stripe's viral Black Friday site
+                                    Developing at the speed of sound:<br /> How Sonos amplified their DevEx
                                 </h2>
                                 {/* Metrics */}
                                 <div className="flex gap-4 mb-4">
                                     <div className="flex flex-col border rounded-lg p-2">
-                                        <span className="text-base font-bold">100%</span>
-                                        <span className='text-xs text-gray-600'>Uptime</span>
+                                        <span className="text-base font-bold">75%<span className="text-sm text-gray-600 pl-1">faster</span></span>
+                                        <span className='text-xs text-gray-600'>Build time</span>
                                     </div>
                                     <div className="flex flex-col border rounded-lg p-2">
-                                        <span className="text-base font-bold">17m+</span>
-                                        <span className="text-xs text-gray-600">Edge requests at launch</span>
+                                        <span className="text-base font-bold">10%<span className="text-sm text-gray-600 pl-1">better</span></span>
+                                        <span className="text-xs text-gray-600">Performance scores</span>
                                     </div>
                                 </div>
                                 {/* Link */}
@@ -155,11 +155,11 @@ const CardSlide = () => {
 
 
                     {/* Card 5 same as 2 */}
-                    <div className="shadow-lg rounded-lg overflow-hidden h-[450px] hover:bg-stone-50">
+                    <div className="rounded-lg overflow-hidden h-[450px] hover:bg-stone-50 border shadow-lg">
                         <div className="flex flex-col justify-between h-full p-6">
                             {/* Image */}
                             <div className="mb-4">
-                                <img src={CardImage} alt="card-image" className="h-36 w-full shadow-md" />
+                                <img src={CardImage} alt="card-image" className="h-40 w-50 border shadow-md" />
                             </div>
 
                             <div>
